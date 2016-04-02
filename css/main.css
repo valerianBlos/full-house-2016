@@ -1,0 +1,109 @@
+
+/*
+########### GENERAL SITE STYLE
+*/
+
+h1
+{
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+#pageWrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smallText
+{
+	font-size: 11px;
+}
+
+/*
+########### NAVIGATION SITE STYLE
+*/
+
+#navigation
+{
+	position: absolute;
+	/*margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;*/
+    width: 90%;
+    top: 15px;
+    z-index: 5;
+}
+
+#navigation ul
+{
+	list-style-type: none;
+}
+
+#navigation ul li
+{
+	padding: 0px 9px;
+}
+
+#navigation ul li a
+{
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+    line-height: 16px;	
+}
+
+
+/*
+########### LEFT SITE STYLE
+*/
+
+#leftSite
+{
+}
+
+.subHeadlineStartseite
+{
+	bottom: 15px;
+    position: absolute;
+	margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 90%
+}
+
+.pp-tableCell
+{
+	padding-right: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#leftSite .section
+{
+	background-color: #fff;
+}
+
+
+
+
+/*
+########### RIGHT SITE STYLE
+*/
+
+#rightSite
+{
+	box-shadow: -4px 0px 25px rgba(135,117,83,0.3);
+    background-color: #fff;
+	height: 100%;
+	width: 90%;
+	left: 90%;
+	z-index: 20;
+	position: absolute;
+}
+
